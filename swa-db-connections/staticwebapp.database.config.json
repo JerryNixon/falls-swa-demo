@@ -24,13 +24,10 @@
         "allow-credentials": false
       },
       "authentication": {
-        "provider": "azuread",
-        "jwt": {
-          "audience": "39d186d8-fec4-4419-aadb-0754db068ed0",
-          "issuer": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/v2.0"
+        "provider": "StaticWebApps"
         }
       },
-      "mode": "production"
+      "mode": "development"
     }
   },
   "entities": {
